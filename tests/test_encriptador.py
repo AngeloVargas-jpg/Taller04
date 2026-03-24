@@ -1,7 +1,10 @@
 import sys
 import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import pytest
+
+# Agregar la carpeta raíz del proyecto al path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from aes_utils import encriptar
 
 
@@ -22,7 +25,6 @@ def test_encriptar_diferente_cada_vez():
     r1 = encriptar("mismo texto", "misma llave")
     r2 = encriptar("mismo texto", "misma llave")
     assert r1 != r2
-
 
 
 def test_encriptar_texto_largo():
