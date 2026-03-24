@@ -1,2 +1,1 @@
-# Taller04
-Taller 4 aplicaciones y tecnologia web
+![CI](https://github.com/AngeloVargas-jpg/Taller04/actions/workflows/ci.yml/badge.svg)
