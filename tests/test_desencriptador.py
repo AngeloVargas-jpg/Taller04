@@ -1,5 +1,4 @@
 import sys
-import os
 import pytest
 
 # Agregar la carpeta raíz del proyecto al path
